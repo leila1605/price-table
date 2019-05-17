@@ -1,0 +1,194 @@
+/*Default Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Default font-size declaration, all rem will be calculated from this default value*/
+html{
+    font-size: 62.5%;
+    /*Don`t use px here.
+    Pixels will remove possibility for user adjust website manually
+    This technique does not work for Internet browser with lower than 9 version*/
+}
+
+
+
+body{
+    background-color: #EFEDED;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color: #777;
+    padding: 3rem;
+    /* Same function as for font-size above  */
+    box-sizing: border-box;
+}
+
+
+
+/*Card style*/
+
+.card-group{
+    width: 100rem;
+    margin: 10vh auto;
+}
+
+.card{
+    margin: 1rem;
+    width: 20rem;
+    height: 60rem;
+    border:none;
+}
+
+.card:hover{
+    box-shadow: 0 0 2rem #C4C4C4;
+}
+
+.card-selected{
+    margin: 1rem;
+    width: 20rem;
+    height: 70rem;
+    border:none;
+}
+
+.card-body{
+    text-align: center;
+    padding: 0;
+}
+
+.card-title-container{
+    background-color: #E4E4E4;
+    height: 10rem;
+    clip-path: polygon(0 0, 100% 0, 100% 8rem, 0 100%);
+}
+
+.card-title-container-featured{
+    background-color: #2ECC71;
+    height: 10rem;
+    clip-path: polygon(0 0, 100% 0, 100% 8rem, 0 100%);
+}
+
+
+/*Card title*/
+
+.card-title{
+    padding-top: 3.2rem;
+    font-size: 2.7rem;
+    color: #727272;
+    font-weight: 300;
+    background-color: #E4E4E4;
+}
+
+.card-title-featured{
+    padding-top: 3.2rem;
+    font-size: 2.7rem;
+    color: #fff;
+    font-weight: 300;
+    background-color: #2ECC71;
+}
+
+.card-title-month{
+    font-size: 1.6rem;
+}
+
+
+
+/*Card Price*/
+
+.card-price-container{
+    background-color: #F6F6F6;
+    height: 20rem;
+}
+
+.card-price{
+    font-size: 6rem;
+    font-weight: 300;
+    position: relative;
+    color: #414141;
+}
+
+.card-price-title-dollar{
+    position: absolute;
+    top: 4rem;
+    left: 6rem;
+    font-size: 2rem;
+}
+
+.card-price-title-dollar-two{
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    font-size: 2rem;
+}
+
+.card-price-title-dollar-three{
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    font-size: 2rem;
+}
+
+.card-price-title-cents{
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.card-price-title-month{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+
+/*Card Articles*/
+
+.card-articles-container{
+    margin-top: 4rem;
+}
+
+.card-articles{
+    font-size: 1.6rem;
+    line-height: 2.7;
+}
+
+
+
+/*Card Button*/
+
+.card-button{
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    width: 24rem;
+    height: 5rem;
+    color: #2ECC71;
+    border: 0.1rem solid #2ECC71;
+    font-size: 1.6rem;
+    border-radius: 2.5rem;
+}
+
+.card-button:hover{
+    color: #fff;
+    border: none;
+    background-color: #2ECC71;
+    transition: .5s ease;
+}
+
+.card-button-green{
+    border: none;
+    background-color: #2ECC71;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    width: 24rem;
+    height: 5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 2.5rem;
+}
